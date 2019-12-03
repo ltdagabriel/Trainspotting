@@ -1,0 +1,103 @@
+TrainLineFile 2
+20 20
+R 0 0 1 LeftStopRail NoSensor
+R 0 2 1 LeftStopRail NoSensor
+R 1 0 1 HorizontalRail NoSensor
+R 1 2 1 HorizontalRail NoSensor
+R 2 0 1 HorizontalRail NoSensor
+R 2 1 Custom station
+R 2 2 1 HorizontalRail NoSensor
+R 3 0 1 HorizontalRail NoSensor
+R 3 2 1 HorizontalRail NoSensor
+R 4 0 1 HorizontalRail NoSensor
+R 4 2 1 HorizontalRail NoSensor
+R 5 0 1 HorizontalRail NoSensor
+R 5 2 1 HorizontalRail NoSensor
+R 6 0 1 HorizontalRail NoSensor
+R 6 2 1 HorizontalRail NoSensor
+R 7 0 1 HorizontalRail NoSensor
+R 7 2 1 HorizontalRail NoSensor
+R 7 16 1 DownRightRail NoSensor
+R 7 17 1 VerticalRail NoSensor
+R 7 18 1 UpRightRail NoSensor
+R 8 0 1 HorizontalRail NoSensor
+R 8 1 1 DownRightRail NoSensor
+R 8 2 1 UpLeftRail NoSensor
+R 8 3 1 DownRightRail NoSensor
+R 8 4 1 VerticalRail NoSensor
+R 8 5 1 VerticalRail NoSensor
+R 8 6 1 UpRightRail NoSensor
+R 8 16 1 HorizontalRail NoSensor
+R 8 18 1 HorizontalRail NoSensor
+R 9 0 1 DownLeftRail NoSensor
+R 9 1 2 VerticalRail HorizontalRail NoSensor
+R 9 2 1 VerticalRail NoSensor
+R 9 3 1 UpLeftRail NoSensor
+R 9 6 2 DownLeftRail DownRightRail NoSensor
+R 9 7 1 VerticalRail NoSensor
+R 9 8 1 VerticalRail NoSensor
+R 9 9 1 VerticalRail NoSensor
+R 9 10 1 UpRightRail NoSensor
+R 9 13 1 DownRightRail NoSensor
+R 9 14 1 VerticalRail NoSensor
+R 9 15 1 VerticalRail NoSensor
+R 9 16 2 UpRightRail UpLeftRail NoSensor
+R 9 18 1 HorizontalRail NoSensor
+R 10 1 1 DownLeftRail NoSensor
+R 10 2 1 VerticalRail NoSensor
+R 10 3 1 UpRightRail NoSensor
+R 10 4 1 DownRightRail NoSensor
+R 10 5 1 VerticalRail NoSensor
+R 10 6 1 UpLeftRail NoSensor
+R 10 10 1 HorizontalRail NoSensor
+R 10 13 1 HorizontalRail NoSensor
+R 10 16 1 HorizontalRail NoSensor
+R 10 18 1 HorizontalRail NoSensor
+R 11 3 1 HorizontalRail NoSensor
+R 11 4 1 HorizontalRail NoSensor
+R 11 10 1 HorizontalRail NoSensor
+R 11 12 1 DownRightRail NoSensor
+R 11 13 2 UpLeftRail HorizontalRail NoSensor
+R 11 16 1 HorizontalRail NoSensor
+R 11 18 1 HorizontalRail NoSensor
+R 12 3 1 HorizontalRail NoSensor
+R 12 4 1 HorizontalRail NoSensor
+R 12 10 1 HorizontalRail NoSensor
+R 12 12 1 HorizontalRail NoSensor
+R 12 13 1 HorizontalRail NoSensor
+R 12 16 1 HorizontalRail NoSensor
+R 12 18 1 HorizontalRail NoSensor
+R 13 3 1 DownLeftRail NoSensor
+R 13 4 1 UpLeftRail NoSensor
+R 13 10 1 HorizontalRail NoSensor
+R 13 12 1 HorizontalRail NoSensor
+R 13 13 1 HorizontalRail NoSensor
+R 13 16 1 HorizontalRail NoSensor
+R 13 18 1 HorizontalRail NoSensor
+R 14 10 1 HorizontalRail NoSensor
+R 14 12 1 HorizontalRail NoSensor
+R 14 13 1 HorizontalRail NoSensor
+R 14 16 1 HorizontalRail NoSensor
+R 14 18 1 HorizontalRail NoSensor
+R 15 10 2 HorizontalRail DownLeftRail NoSensor
+R 15 11 1 VerticalRail NoSensor
+R 15 12 1 UpLeftRail NoSensor
+R 15 13 1 HorizontalRail NoSensor
+R 15 16 1 HorizontalRail NoSensor
+R 15 18 1 HorizontalRail NoSensor
+R 16 10 1 DownLeftRail NoSensor
+R 16 11 1 VerticalRail NoSensor
+R 16 12 1 VerticalRail NoSensor
+R 16 13 1 UpLeftRail NoSensor
+R 16 16 1 HorizontalRail NoSensor
+R 16 18 1 HorizontalRail NoSensor
+R 17 16 1 HorizontalRail NoSensor
+R 17 17 Custom station
+R 17 18 1 HorizontalRail NoSensor
+R 18 16 1 HorizontalRail NoSensor
+R 18 18 1 HorizontalRail NoSensor
+R 19 16 1 RightStopRail NoSensor
+R 19 18 1 RightStopRail NoSensor
+T 16 16 3 Left
+T 2 0 3 Right
+.

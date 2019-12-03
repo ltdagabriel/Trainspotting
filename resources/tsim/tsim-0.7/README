@@ -1,0 +1,53 @@
+tsim v0.7-HUT (2005-08-01)
+
+tsim is a simple train simulator usually used to practise concurrent
+programming.
+
+To compile tsim on Linux and Cygwin, run make in the main tsim directory (the
+one containing the Makefile). On Solaris, Irix and FreeBSD, you must edit the
+Makefile to contain the the right compiler flags by commenting the compiler
+flags for Linux/Cygwin and uncommenting the flags for your chosen operating
+system.
+
+tsim has been tested on Linux, SunOS, Irix, FreeBSD and Cygwin on Windows XP.
+tsim requires X11.
+
+resources.c refers to bitmap and sound directories; you can change the default
+directories for these by editing the two following lines:
+
+#define BITMAPDIR "./bitmaps"
+#define SOUNDDIR  "./sounds"
+
+The colours used can be overridden using the X resources:
+
+    tsim*foreground: white
+    tsim*background: black
+
+(or in fallback_resources in tsim.c).
+
+--
+Magnus Carlsson <magnus@cs.chalmers.se>
+Alois Goller <algo@chl.chalmers.se>
+Jan Lönnberg <jlonnber@cs.hut.fi>
+
+You can use, modify and redistribute tsim to your liking. It would be nice if
+you kept the credits for people who have contributed.
+
+Sprite code based on code by Jim Fulton:
+/*
+ *
+ * Copyright 1988 Massachusetts Institute of Technology
+ *
+ * Permission to use, copy, modify, and distribute this software and its
+ * documentation for any purpose and without fee is hereby granted, provided
+ * that the above copyright notice appear in all copies and that both that
+ * copyright notice and this permission notice appear in supporting
+ * documentation, and that the name of M.I.T. not be used in advertising or
+ * publicity pertaining to distribution of the software without specific,
+ * written prior permission.  M.I.T. makes no representations about the
+ * suitability of this software for any purpose.  It is provided "as is"
+ * without express or implied warranty.
+ *
+ * Author:  Jim Fulton, MIT X Consortium
+ *
+ */
